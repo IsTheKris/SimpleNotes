@@ -1,6 +1,0 @@
-.buildozer/
-build/
-*.apk
-__pycache__/
-*.pyc
-notes.json
