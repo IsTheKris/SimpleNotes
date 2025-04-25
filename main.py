@@ -3,9 +3,12 @@ from kivy.uix.boxlayout import BoxLayout
 import json
 import os
 
+class NoteLayout(BoxLayout):
+    pass
+
 class NoteApp(App):
     def build(self):
-        return BoxLayout()  # Kivy will auto-load noteapp.kv
+        return NoteLayout()
 
     def save_note(self):
         note_text = self.root.ids.note_input.text.strip()

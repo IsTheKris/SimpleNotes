@@ -1,11 +1,11 @@
-BoxLayout:
+<NoteLayout>:
     orientation: 'vertical'
-    padding: 10
-    spacing: 10
+    padding: 2
+    spacing: 2
 
     TextInput:
         id: note_input
-        hint_text: "Write your note here..."
+        hint_text: "Start writing..."
         size_hint_y: 0.8
         multiline: True
 
@@ -13,4 +13,3 @@ BoxLayout:
         text: "Save Note"
         size_hint_y: 0.2
         on_press: app.save_note()
-
